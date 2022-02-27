@@ -47,8 +47,15 @@ void main() {
   // 타입은 직접 명시해주는게 좋다.
   var test = true;
   print(test.runtimeType);
+  // ${} ''안에 변수 사용 가능 but 브라켓('{}') 없어도 된다
+  print('$isTrue $number');
 
-
+  // 06. dynamic 모든 타입 다 가능
+  // dynamic 과 var 타입의 차이점은 ?
+  // var 타입은 처음 선언한 타입으로 픽스되버린다 -> 수정 불가능!!
+  // dynamic 타입은 처음 선언타입이 아닌 타입으로도 변수 값 재할당 가능
+  dynamic name31 = "메테오";
+  print (name31);
 
 
 
