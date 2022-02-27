@@ -13,5 +13,10 @@ void main() {
   print(name2);
 
   // !는 ? 절대로 null 값이 안들어간다고 명시해주는 것!!
-  print(name);
+  // 변수뒤에 붙여준다.
+  print(name2!);
+
+
+
+
 }
