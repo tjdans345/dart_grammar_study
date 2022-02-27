@@ -28,6 +28,13 @@ void main() {
   print(number1 / number2);
   print(number1 * number2);
 
+  // 02. 실수
+  double number3 = 2.5;
+  double number4 = 0.5;
+
+  // 03. 불리언
+  bool isTrue = true;
+  bool isFalse = false;
 
 
 
