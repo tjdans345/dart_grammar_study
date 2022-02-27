@@ -44,6 +44,7 @@ void main() {
 
   // 05. var : 타입 유추 -> 런타임시 타입 정해짐
   // var 로 다 선언되있으면 무슨 타입인지 알아보기 힘들다
+  // 타입은 직접 명시해주는게 좋다.
   var test = true;
   print(test.runtimeType);
 
