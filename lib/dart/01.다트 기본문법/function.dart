@@ -93,3 +93,5 @@ addNumbers4(int x, {
 // 화살표 함수
 // 화살표 뒤가 반환 되는 값이다.
 int addNumbers5(int x, {required int y,required int z}) => x + y + z;
+
+// 정리 완료

@@ -10,8 +10,8 @@ void main() {
   // 01. final
   // 상수값이 된다 -> 값 변경 x
   // final 사용 하면 var 키워드 생략가능(타입 지워도 된다)
-  final String name = "호랭이";
-  final name3 ="야옹이";
+   final String name = "호랭이";
+  final  name3 ="야옹이";
 
   // 02. const
   // const 도 값 변경 x
@@ -20,4 +20,5 @@ void main() {
   const name4 = "메테오2";
   print(name4);
 
+  //정리 완료
 }
