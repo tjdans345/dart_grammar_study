@@ -32,6 +32,7 @@ Future<int> addNumbers(int number1, int number2) async {
 
   // 서버 시뮬레이션
   // await 을 사용해도 비동기로 돌아간다!
+  // async 를 사용해야 await 사용 가능
   await Future.delayed(Duration(seconds: 2), () { // 이건 콜백함수 겠구만
   print("계산 완료 : $number1 + $number2 = ${number1 + number2}");
   });

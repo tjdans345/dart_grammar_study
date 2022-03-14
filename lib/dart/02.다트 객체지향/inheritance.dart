@@ -30,7 +30,7 @@ void main() {
 // 굉장히 중요한 부분 OOP 코드 퀄리티 좌지우지
 class Idol {
   // 성별
-  Gender? gender;
+  Gender gender;
   // 이름
   String name;
   // 멤버 숫자
