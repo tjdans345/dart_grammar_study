@@ -39,7 +39,7 @@ void main() {
   print(isFalse);
 
   // 04. 문자열 타입
-  String girGroup = "레드벨벳쨔응";
+  String girlGroup = "레드벨벳쨔응";
   print(girGroup);
 
   // 05. var : 타입 유추 -> 런타임시 타입 정해짐
