@@ -12,39 +12,40 @@ void main() {
 
   print(dictionary);
 
-  Map<String, bool> isHarryPotterCharater = {
+  Map<String, bool> isHarryPotterCharacter = {
     "Harry Potter" : true,
     "Ron weasley" : true,
     "창모" : false
   };
-  print(isHarryPotterCharater);
+  print(isHarryPotterCharacter);
   
   // 맵에 값 추가하기
-  isHarryPotterCharater.addAll({
+  isHarryPotterCharacter.addAll({
     "Spiderman" : false
   });
-  print(isHarryPotterCharater);
+
+  print(isHarryPotterCharacter);
 
   // 맵에 키값으로 벨류 값 들고오기
-  print(isHarryPotterCharater["창모"]);
+  print(isHarryPotterCharacter["창모"]);
 
   // 맵에 키값으로 새로운 값 추가하기
-  isHarryPotterCharater["헐크"] = false;
-  print(isHarryPotterCharater);
+  isHarryPotterCharacter["헐크"] = false;
+  print(isHarryPotterCharacter);
 
   // 맵에 키값으로 값 변경하기
-  isHarryPotterCharater["헐크"] = true;
-  print(isHarryPotterCharater);
+  isHarryPotterCharacter["헐크"] = true;
+  print(isHarryPotterCharacter);
 
   print("---------------");
   // 맵에 키값으로 값 삭제하기
-  isHarryPotterCharater.remove("Spiderman");
-  print(isHarryPotterCharater);
+  isHarryPotterCharacter.remove("Spiderman");
+  print(isHarryPotterCharacter);
 
   // 맵에서 모든 키 값만 들고올기
-  print(isHarryPotterCharater.keys);
+  print(isHarryPotterCharacter.keys);
 
   // 맵에서 모든 벨류 값만 들고올기
-  print(isHarryPotterCharater.values);
+  print(isHarryPotterCharacter.values);
 
 }

@@ -25,4 +25,5 @@ void main() {
   print(blackPint);
   print(blackPint.indexOf("로제")); // 찾는 단어의 인덱스 반환
 
+  // 정리 완료
 }
